@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ATVPingPongGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>AWPingPongGame (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>AWPingPongGame (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AWPingPongGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>PingPongGame.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>870EAE261DC4E8CA00E6E773</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>87DB8FAF1DC49665007DE6EE</key>
 		<dict>
 			<key>primary</key>
@@ -23,6 +48,21 @@
 			<true/>
 		</dict>
 		<key>87DB8FD41DC49665007DE6EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87F002931DC66D2600FCD81F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87F002AB1DC66D2700FCD81F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87F002B61DC66D2700FCD81F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

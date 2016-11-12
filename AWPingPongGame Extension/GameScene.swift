@@ -1,32 +1,39 @@
 //
 //  GameScene.swift
-//  PingPongGame
+//  AWPingPongGame Extension
 //
 //  Created by Leonardo Puga-DeBiase on 10/29/16.
 //  Copyright © 2016 Leonardo Puga De Biase. All rights reserved.
 //
 
 import SpriteKit
-import GameplayKit
+import CoreMotion
 
 class GameScene: SKScene {
+    
     var ball = SKSpriteNode()
     var enemy = SKSpriteNode()
     var player = SKSpriteNode()
+    var motionManager: CMMotionManager!
     
     var enemyScoreValueLbl = SKLabelNode()
     var playerScoreValueLbl = SKLabelNode()
     
     var score = [Int]()
     
-    override func didMove(to view: SKView) {
+    
+    override func sceneDidLoad() {
         startGame()
+        
+        //get accelerometer changes
+        motionManager = CMMotionManager()
+        motionManager.startAccelerometerUpdates()
         
         ball = self.childNode(withName: "ball") as! SKSpriteNode
         enemy = self.childNode(withName: "enemyPlayer") as! SKSpriteNode
         player = self.childNode(withName: "mainPlayer") as! SKSpriteNode
-        playerScoreValueLbl = self.childNode(withName: "playerScoreValueLbl") as! SKLabelNode
-        enemyScoreValueLbl = self.childNode(withName: "enemyScoreValueLbl") as! SKLabelNode
+       // playerScoreValueLbl = self.childNode(withName: "playerScoreValueLbl") as! SKLabelNode
+       // enemyScoreValueLbl = self.childNode(withName: "enemyScoreValueLbl") as! SKLabelNode
         
         ball.physicsBody?.applyImpulse(CGVector(dx:20, dy:20))
         
@@ -55,19 +62,11 @@ class GameScene: SKScene {
         print(score)
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for touch in touches{
-            let location = touch.location(in: self)
-            player.run(SKAction.moveTo(x: location.x, duration: 0.2))
-        }
+    func movesBegan(wristMoves: CMAccelerometerData) {
+        player.run(SKAction.moveTo(x: CGFloat(wristMoves.acceleration.x * 250), duration: 0.1))
     }
+
     
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for touch in touches{
-            let location = touch.location(in: self)
-            player.run(SKAction.moveTo(x: location.x, duration: 0.2))
-        }
-    }
     
     override func update(_ currentTime: TimeInterval) {
         enemy.run(SKAction.moveTo(x: ball.position.x, duration: 1.0))
@@ -75,6 +74,11 @@ class GameScene: SKScene {
             addScore(playerWhoWon: enemy)
         }else if ball.position.y >= enemy.position.y + 30 {
             addScore(playerWhoWon: player)
+        }
+        if let accelerometerData = motionManager.accelerometerData {
+            movesBegan(wristMoves: accelerometerData)
+            //physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.y * -50, dy: accelerometerData.acceleration.x * 50)
+            print("accelerometer changing X: \(accelerometerData.acceleration.x)")
         }
     }
 }
