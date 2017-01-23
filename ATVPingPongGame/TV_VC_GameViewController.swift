@@ -10,7 +10,8 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameViewController: UIViewController {
+class TV_VC_GameViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

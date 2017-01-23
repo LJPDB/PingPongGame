@@ -9,24 +9,43 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import SWRevealViewController
 
-class GameViewController: UIViewController {
-
+class iOS_VC_GameViewController: UIViewController {
+    
+    @IBOutlet weak var otl_pauseBtn: UIButton!
+    var currentGame: iOS_GameScene!
+    @IBOutlet weak var menu_btn: UIBarButtonItem!
+    
+    @IBAction func btn_pausePressed(_ sender: Any) {
+        
+        self.currentGame.pauseGame()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.otl_pauseBtn.setTitle("pause", for: UIControlState.normal)
+        if revealViewController() != nil {
+            //self.revealViewController().rearViewRevealWidth = 62
+            menu_btn.target = self.revealViewController()
+            menu_btn.action = #selector(SWRevealViewController.revealToggle(_:))
+            //otl_menuBtn.target(forAction: #selector(SWRevealViewController.revealToggle(_:)), withSender: self.revealViewController())
+            
+            //self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            if let scene = SKScene(fileNamed: "iOS_GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 
                 // Present the scene
                 view.presentScene(scene)
+                currentGame = scene as! iOS_GameScene
+                currentGame.viewController = self
             }
             
-            view.ignoresSiblingOrder = true
-            
+            view.ignoresSiblingOrder = true            
             view.showsFPS = true
             view.showsNodeCount = true
         }
@@ -50,6 +69,6 @@ class GameViewController: UIViewController {
     }
 
     override var prefersStatusBarHidden: Bool {
-        return true
+        return false
     }
 }

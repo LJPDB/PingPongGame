@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E96B7C3FF3EFD91CE07D4D9 /* Pods_AWPingPongGame_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6ADAB4614FF860379463CD /* Pods_AWPingPongGame_Extension.framework */; };
+		6720C755D7759124E5CE52E9 /* Pods_AWPingPongGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904F04424A1D05DBEBFB46B5 /* Pods_AWPingPongGame.framework */; };
+		75969B29F7BAB378B4395736 /* Pods_ATVPingPongGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CEB546E489E6B54A34D8BA /* Pods_ATVPingPongGameUITests.framework */; };
+		7A505D740B6C1075576FEAB2 /* Pods_ATVPingPongGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBE9F2BB8C5FAEB4BD6C18D /* Pods_ATVPingPongGameTests.framework */; };
 		870EAE2B1DC4E8CA00E6E773 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870EAE291DC4E8CA00E6E773 /* Interface.storyboard */; };
 		870EAE2D1DC4E8CA00E6E773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870EAE2C1DC4E8CA00E6E773 /* Assets.xcassets */; };
 		870EAE341DC4E8CA00E6E773 /* AWPingPongGame Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 870EAE331DC4E8CA00E6E773 /* AWPingPongGame Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -18,26 +22,32 @@
 		870EAE451DC4E8CA00E6E773 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870EAE441DC4E8CA00E6E773 /* ComplicationController.swift */; };
 		870EAE471DC4E8CA00E6E773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870EAE461DC4E8CA00E6E773 /* Assets.xcassets */; };
 		870EAE4B1DC4E8CA00E6E773 /* AWPingPongGame.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 870EAE271DC4E8CA00E6E773 /* AWPingPongGame.app */; };
+		871B86BC1DF0844B0029C64E /* iOS_VC_TestMenuWithNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B86BB1DF0844B0029C64E /* iOS_VC_TestMenuWithNavBar.swift */; };
 		87DB8FB41DC49665007DE6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FB31DC49665007DE6EE /* AppDelegate.swift */; };
-		87DB8FB61DC49665007DE6EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87DB8FB51DC49665007DE6EE /* GameScene.sks */; };
+		87DB8FB61DC49665007DE6EE /* iOS_GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87DB8FB51DC49665007DE6EE /* iOS_GameScene.sks */; };
 		87DB8FB81DC49665007DE6EE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87DB8FB71DC49665007DE6EE /* Actions.sks */; };
-		87DB8FBA1DC49665007DE6EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FB91DC49665007DE6EE /* GameScene.swift */; };
-		87DB8FBC1DC49665007DE6EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FBB1DC49665007DE6EE /* GameViewController.swift */; };
+		87DB8FBA1DC49665007DE6EE /* iOS_GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FB91DC49665007DE6EE /* iOS_GameScene.swift */; };
+		87DB8FBC1DC49665007DE6EE /* iOS_VC_GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FBB1DC49665007DE6EE /* iOS_VC_GameViewController.swift */; };
 		87DB8FBF1DC49665007DE6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DB8FBD1DC49665007DE6EE /* Main.storyboard */; };
 		87DB8FC11DC49665007DE6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DB8FC01DC49665007DE6EE /* Assets.xcassets */; };
 		87DB8FC41DC49665007DE6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DB8FC21DC49665007DE6EE /* LaunchScreen.storyboard */; };
 		87DB8FCF1DC49665007DE6EE /* PingPongGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FCE1DC49665007DE6EE /* PingPongGameTests.swift */; };
 		87DB8FDA1DC49665007DE6EE /* PingPongGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB8FD91DC49665007DE6EE /* PingPongGameUITests.swift */; };
+		87E914EE1DF04F5900B14352 /* VC_GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E914ED1DF04F5900B14352 /* VC_GameMenu.swift */; };
 		87F002971DC66D2700FCD81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F002961DC66D2700FCD81F /* AppDelegate.swift */; };
 		87F002991DC66D2700FCD81F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87F002981DC66D2700FCD81F /* GameScene.sks */; };
 		87F0029B1DC66D2700FCD81F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87F0029A1DC66D2700FCD81F /* Actions.sks */; };
 		87F0029D1DC66D2700FCD81F /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F0029C1DC66D2700FCD81F /* Game.xcassets */; };
 		87F0029F1DC66D2700FCD81F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0029E1DC66D2700FCD81F /* GameScene.swift */; };
-		87F002A11DC66D2700FCD81F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F002A01DC66D2700FCD81F /* GameViewController.swift */; };
+		87F002A11DC66D2700FCD81F /* TV_VC_GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F002A01DC66D2700FCD81F /* TV_VC_GameViewController.swift */; };
 		87F002A41DC66D2700FCD81F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F002A21DC66D2700FCD81F /* Main.storyboard */; };
 		87F002A61DC66D2700FCD81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F002A51DC66D2700FCD81F /* Assets.xcassets */; };
 		87F002B11DC66D2700FCD81F /* ATVPingPongGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F002B01DC66D2700FCD81F /* ATVPingPongGameTests.swift */; };
 		87F002BC1DC66D2700FCD81F /* ATVPingPongGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F002BB1DC66D2700FCD81F /* ATVPingPongGameUITests.swift */; };
+		92A6E38CA055597E75A79449 /* Pods_PingPongGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00C7D0DAEBF39D1BE44E493 /* Pods_PingPongGame.framework */; };
+		9D7A635E60C2626F93A75832 /* Pods_PingPongGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E6BC3FE190F282CEC286B9 /* Pods_PingPongGameUITests.framework */; };
+		B95DC32BBCB2E433347EAD13 /* Pods_PingPongGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA362A84645EB6344DAA2DEF /* Pods_PingPongGameTests.framework */; };
+		C09ADCEEA2D5061C491C2F37 /* Pods_ATVPingPongGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3041F39E07AC184425089F73 /* Pods_ATVPingPongGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +121,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07E4065835B6151983089D98 /* Pods-AWPingPongGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWPingPongGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWPingPongGame/Pods-AWPingPongGame.release.xcconfig"; sourceTree = "<group>"; };
+		0D6ADAB4614FF860379463CD /* Pods_AWPingPongGame_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWPingPongGame_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1661E9E43198AD064635DAC1 /* Pods-ATVPingPongGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPingPongGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPingPongGame/Pods-ATVPingPongGame.debug.xcconfig"; sourceTree = "<group>"; };
+		281D6EF3F3DDCF476B2C2D1B /* Pods-ATVPingPongGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPingPongGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPingPongGameTests/Pods-ATVPingPongGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B789551C99A00C2F84EDE1C /* Pods-ATVPingPongGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPingPongGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPingPongGameUITests/Pods-ATVPingPongGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DA31CB85C1E96273179B549 /* Pods-PingPongGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongGameUITests/Pods-PingPongGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FBE9F2BB8C5FAEB4BD6C18D /* Pods_ATVPingPongGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATVPingPongGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3041F39E07AC184425089F73 /* Pods_ATVPingPongGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATVPingPongGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C3F8A843FC8878D1259AB9 /* Pods-PingPongGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongGame/Pods-PingPongGame.debug.xcconfig"; sourceTree = "<group>"; };
+		360A8570AEDA0136CDA3B7BB /* Pods-AWPingPongGame Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWPingPongGame Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWPingPongGame Extension/Pods-AWPingPongGame Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		3C72597DF63A363A453F6397 /* Pods-PingPongGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongGameTests/Pods-PingPongGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C8373FACB17A0F63A46994E /* Pods-PingPongGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongGameUITests/Pods-PingPongGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6568645A91E424C85AD9ABF1 /* Pods-ATVPingPongGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPingPongGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPingPongGame/Pods-ATVPingPongGame.release.xcconfig"; sourceTree = "<group>"; };
+		6693A51E8768A9C48A0C615D /* Pods-ATVPingPongGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPingPongGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPingPongGameUITests/Pods-ATVPingPongGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75832A4CBC996873D751CC9D /* Pods-PingPongGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongGame/Pods-PingPongGame.release.xcconfig"; sourceTree = "<group>"; };
 		870EAE271DC4E8CA00E6E773 /* AWPingPongGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWPingPongGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		870EAE2A1DC4E8CA00E6E773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		870EAE2C1DC4E8CA00E6E773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,12 +152,13 @@
 		870EAE481DC4E8CA00E6E773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		870EAE541DC4ED9D00E6E773 /* PingPongGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PingPongGame.entitlements; sourceTree = "<group>"; };
 		870EAE551DC4EDEF00E6E773 /* AWPingPongGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AWPingPongGame.entitlements; sourceTree = "<group>"; };
+		871B86BB1DF0844B0029C64E /* iOS_VC_TestMenuWithNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS_VC_TestMenuWithNavBar.swift; sourceTree = "<group>"; };
 		87DB8FB01DC49665007DE6EE /* PingPongGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPongGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DB8FB31DC49665007DE6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87DB8FB51DC49665007DE6EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		87DB8FB51DC49665007DE6EE /* iOS_GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = iOS_GameScene.sks; sourceTree = "<group>"; };
 		87DB8FB71DC49665007DE6EE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		87DB8FB91DC49665007DE6EE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		87DB8FBB1DC49665007DE6EE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		87DB8FB91DC49665007DE6EE /* iOS_GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_GameScene.swift; sourceTree = "<group>"; };
+		87DB8FBB1DC49665007DE6EE /* iOS_VC_GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VC_GameViewController.swift; sourceTree = "<group>"; };
 		87DB8FBE1DC49665007DE6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87DB8FC01DC49665007DE6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DB8FC31DC49665007DE6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,13 +169,14 @@
 		87DB8FD51DC49665007DE6EE /* PingPongGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPongGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DB8FD91DC49665007DE6EE /* PingPongGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongGameUITests.swift; sourceTree = "<group>"; };
 		87DB8FDB1DC49665007DE6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E914ED1DF04F5900B14352 /* VC_GameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_GameMenu.swift; sourceTree = "<group>"; };
 		87F002941DC66D2600FCD81F /* ATVPingPongGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATVPingPongGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F002961DC66D2700FCD81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87F002981DC66D2700FCD81F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		87F0029A1DC66D2700FCD81F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		87F0029C1DC66D2700FCD81F /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
 		87F0029E1DC66D2700FCD81F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		87F002A01DC66D2700FCD81F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		87F002A01DC66D2700FCD81F /* TV_VC_GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_VC_GameViewController.swift; sourceTree = "<group>"; };
 		87F002A31DC66D2700FCD81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87F002A51DC66D2700FCD81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87F002A71DC66D2700FCD81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,13 +186,31 @@
 		87F002B71DC66D2700FCD81F /* ATVPingPongGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATVPingPongGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F002BB1DC66D2700FCD81F /* ATVPingPongGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVPingPongGameUITests.swift; sourceTree = "<group>"; };
 		87F002BD1DC66D2700FCD81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904F04424A1D05DBEBFB46B5 /* Pods_AWPingPongGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWPingPongGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF3273D8ECE311826FBB35F /* Pods-ATVPingPongGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPingPongGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPingPongGameTests/Pods-ATVPingPongGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA362A84645EB6344DAA2DEF /* Pods_PingPongGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPongGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5C152E5F80838B2DDE8D97 /* Pods-AWPingPongGame Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWPingPongGame Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWPingPongGame Extension/Pods-AWPingPongGame Extension.release.xcconfig"; sourceTree = "<group>"; };
+		C00C7D0DAEBF39D1BE44E493 /* Pods_PingPongGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPongGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1B7C0E3FB92ED2E90B9359 /* Pods-PingPongGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPongGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPongGameTests/Pods-PingPongGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		D29BB50814610A1D33A72C28 /* Pods-AWPingPongGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWPingPongGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWPingPongGame/Pods-AWPingPongGame.debug.xcconfig"; sourceTree = "<group>"; };
+		D5CEB546E489E6B54A34D8BA /* Pods_ATVPingPongGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATVPingPongGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E6BC3FE190F282CEC286B9 /* Pods_PingPongGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPongGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2AFB676AA358E81001B3358B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6720C755D7759124E5CE52E9 /* Pods_AWPingPongGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		870EAE301DC4E8CA00E6E773 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E96B7C3FF3EFD91CE07D4D9 /* Pods_AWPingPongGame_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A6E38CA055597E75A79449 /* Pods_PingPongGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95DC32BBCB2E433347EAD13 /* Pods_PingPongGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +234,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7A635E60C2626F93A75832 /* Pods_PingPongGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09ADCEEA2D5061C491C2F37 /* Pods_ATVPingPongGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +250,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A505D740B6C1075576FEAB2 /* Pods_ATVPingPongGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,12 +258,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75969B29F7BAB378B4395736 /* Pods_ATVPingPongGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E070D93999539BBEBB4AA32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3041F39E07AC184425089F73 /* Pods_ATVPingPongGame.framework */,
+				2FBE9F2BB8C5FAEB4BD6C18D /* Pods_ATVPingPongGameTests.framework */,
+				D5CEB546E489E6B54A34D8BA /* Pods_ATVPingPongGameUITests.framework */,
+				904F04424A1D05DBEBFB46B5 /* Pods_AWPingPongGame.framework */,
+				0D6ADAB4614FF860379463CD /* Pods_AWPingPongGame_Extension.framework */,
+				C00C7D0DAEBF39D1BE44E493 /* Pods_PingPongGame.framework */,
+				BA362A84645EB6344DAA2DEF /* Pods_PingPongGameTests.framework */,
+				F6E6BC3FE190F282CEC286B9 /* Pods_PingPongGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		870EAE281DC4E8CA00E6E773 /* AWPingPongGame */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +327,8 @@
 				87F002AF1DC66D2700FCD81F /* ATVPingPongGameTests */,
 				87F002BA1DC66D2700FCD81F /* ATVPingPongGameUITests */,
 				87DB8FB11DC49665007DE6EE /* Products */,
+				C02CDEFD0A267DD87328DAE9 /* Pods */,
+				0E070D93999539BBEBB4AA32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -282,12 +350,10 @@
 		87DB8FB21DC49665007DE6EE /* PingPongGame */ = {
 			isa = PBXGroup;
 			children = (
+				87E914EC1DF04EA200B14352 /* GS */,
+				87E914EB1DF04E8600B14352 /* VC */,
 				870EAE541DC4ED9D00E6E773 /* PingPongGame.entitlements */,
 				87DB8FB31DC49665007DE6EE /* AppDelegate.swift */,
-				87DB8FB51DC49665007DE6EE /* GameScene.sks */,
-				87DB8FB71DC49665007DE6EE /* Actions.sks */,
-				87DB8FB91DC49665007DE6EE /* GameScene.swift */,
-				87DB8FBB1DC49665007DE6EE /* GameViewController.swift */,
 				87DB8FBD1DC49665007DE6EE /* Main.storyboard */,
 				87DB8FC01DC49665007DE6EE /* Assets.xcassets */,
 				87DB8FC21DC49665007DE6EE /* LaunchScreen.storyboard */,
@@ -314,6 +380,26 @@
 			path = PingPongGameUITests;
 			sourceTree = "<group>";
 		};
+		87E914EB1DF04E8600B14352 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				87DB8FBB1DC49665007DE6EE /* iOS_VC_GameViewController.swift */,
+				87E914ED1DF04F5900B14352 /* VC_GameMenu.swift */,
+				871B86BB1DF0844B0029C64E /* iOS_VC_TestMenuWithNavBar.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		87E914EC1DF04EA200B14352 /* GS */ = {
+			isa = PBXGroup;
+			children = (
+				87DB8FB51DC49665007DE6EE /* iOS_GameScene.sks */,
+				87DB8FB71DC49665007DE6EE /* Actions.sks */,
+				87DB8FB91DC49665007DE6EE /* iOS_GameScene.swift */,
+			);
+			name = GS;
+			sourceTree = "<group>";
+		};
 		87F002951DC66D2700FCD81F /* ATVPingPongGame */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,7 +408,7 @@
 				87F0029A1DC66D2700FCD81F /* Actions.sks */,
 				87F0029C1DC66D2700FCD81F /* Game.xcassets */,
 				87F0029E1DC66D2700FCD81F /* GameScene.swift */,
-				87F002A01DC66D2700FCD81F /* GameViewController.swift */,
+				87F002A01DC66D2700FCD81F /* TV_VC_GameViewController.swift */,
 				87F002A21DC66D2700FCD81F /* Main.storyboard */,
 				87F002A51DC66D2700FCD81F /* Assets.xcassets */,
 				87F002A71DC66D2700FCD81F /* Info.plist */,
@@ -348,6 +434,29 @@
 			path = ATVPingPongGameUITests;
 			sourceTree = "<group>";
 		};
+		C02CDEFD0A267DD87328DAE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1661E9E43198AD064635DAC1 /* Pods-ATVPingPongGame.debug.xcconfig */,
+				6568645A91E424C85AD9ABF1 /* Pods-ATVPingPongGame.release.xcconfig */,
+				AFF3273D8ECE311826FBB35F /* Pods-ATVPingPongGameTests.debug.xcconfig */,
+				281D6EF3F3DDCF476B2C2D1B /* Pods-ATVPingPongGameTests.release.xcconfig */,
+				6693A51E8768A9C48A0C615D /* Pods-ATVPingPongGameUITests.debug.xcconfig */,
+				2B789551C99A00C2F84EDE1C /* Pods-ATVPingPongGameUITests.release.xcconfig */,
+				D29BB50814610A1D33A72C28 /* Pods-AWPingPongGame.debug.xcconfig */,
+				07E4065835B6151983089D98 /* Pods-AWPingPongGame.release.xcconfig */,
+				360A8570AEDA0136CDA3B7BB /* Pods-AWPingPongGame Extension.debug.xcconfig */,
+				BD5C152E5F80838B2DDE8D97 /* Pods-AWPingPongGame Extension.release.xcconfig */,
+				30C3F8A843FC8878D1259AB9 /* Pods-PingPongGame.debug.xcconfig */,
+				75832A4CBC996873D751CC9D /* Pods-PingPongGame.release.xcconfig */,
+				3C72597DF63A363A453F6397 /* Pods-PingPongGameTests.debug.xcconfig */,
+				CA1B7C0E3FB92ED2E90B9359 /* Pods-PingPongGameTests.release.xcconfig */,
+				4C8373FACB17A0F63A46994E /* Pods-PingPongGameUITests.debug.xcconfig */,
+				2DA31CB85C1E96273179B549 /* Pods-PingPongGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -355,8 +464,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 870EAE501DC4E8CA00E6E773 /* Build configuration list for PBXNativeTarget "AWPingPongGame" */;
 			buildPhases = (
+				C1E9E47A145DBD1306189121 /* [CP] Check Pods Manifest.lock */,
 				870EAE251DC4E8CA00E6E773 /* Resources */,
 				870EAE4F1DC4E8CA00E6E773 /* Embed App Extensions */,
+				2AFB676AA358E81001B3358B /* Frameworks */,
+				9D86D7E5DF608B90F5D21A1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,9 +484,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 870EAE4C1DC4E8CA00E6E773 /* Build configuration list for PBXNativeTarget "AWPingPongGame Extension" */;
 			buildPhases = (
+				212ED5DF530592B0F2D17671 /* [CP] Check Pods Manifest.lock */,
 				870EAE2F1DC4E8CA00E6E773 /* Sources */,
 				870EAE301DC4E8CA00E6E773 /* Frameworks */,
 				870EAE311DC4E8CA00E6E773 /* Resources */,
+				C82229AA3343FB0F011192A0 /* [CP] Embed Pods Frameworks */,
+				B67EC4EAE9C0D5A1727F79D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,10 +504,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87DB8FDE1DC49665007DE6EE /* Build configuration list for PBXNativeTarget "PingPongGame" */;
 			buildPhases = (
+				426285EE6F620EE9F8FBA3B8 /* [CP] Check Pods Manifest.lock */,
 				87DB8FAC1DC49665007DE6EE /* Sources */,
 				87DB8FAD1DC49665007DE6EE /* Frameworks */,
 				87DB8FAE1DC49665007DE6EE /* Resources */,
 				870EAE531DC4E8CA00E6E773 /* Embed Watch Content */,
+				11EE52CEFACADEEC2EBD23D4 /* [CP] Embed Pods Frameworks */,
+				473D483C5FDE6E622D345288 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -408,9 +526,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87DB8FE11DC49665007DE6EE /* Build configuration list for PBXNativeTarget "PingPongGameTests" */;
 			buildPhases = (
+				44B3BEAE933B1B43337AC2A6 /* [CP] Check Pods Manifest.lock */,
 				87DB8FC61DC49665007DE6EE /* Sources */,
 				87DB8FC71DC49665007DE6EE /* Frameworks */,
 				87DB8FC81DC49665007DE6EE /* Resources */,
+				5384EF1FF43DCF3641724214 /* [CP] Embed Pods Frameworks */,
+				28DB9A61C0922342F0EDCDF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,9 +547,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87DB8FE41DC49665007DE6EE /* Build configuration list for PBXNativeTarget "PingPongGameUITests" */;
 			buildPhases = (
+				F304384F5B17DE30F6C461FE /* [CP] Check Pods Manifest.lock */,
 				87DB8FD11DC49665007DE6EE /* Sources */,
 				87DB8FD21DC49665007DE6EE /* Frameworks */,
 				87DB8FD31DC49665007DE6EE /* Resources */,
+				0086942B3F2C3B177C6DBFB0 /* [CP] Embed Pods Frameworks */,
+				4C9C5009362A7DEB96EDC906 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,9 +568,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87F002C41DC66D2700FCD81F /* Build configuration list for PBXNativeTarget "ATVPingPongGame" */;
 			buildPhases = (
+				F614E9AF5C697DE45471AD61 /* [CP] Check Pods Manifest.lock */,
 				87F002901DC66D2600FCD81F /* Sources */,
 				87F002911DC66D2600FCD81F /* Frameworks */,
 				87F002921DC66D2600FCD81F /* Resources */,
+				98B0AB9FAB094665D321F9D2 /* [CP] Embed Pods Frameworks */,
+				663B52855A30DC3A2BC35A77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -461,9 +588,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87F002C51DC66D2700FCD81F /* Build configuration list for PBXNativeTarget "ATVPingPongGameTests" */;
 			buildPhases = (
+				1733198BD1587101FDDE1F37 /* [CP] Check Pods Manifest.lock */,
 				87F002A81DC66D2700FCD81F /* Sources */,
 				87F002A91DC66D2700FCD81F /* Frameworks */,
 				87F002AA1DC66D2700FCD81F /* Resources */,
+				274792C8E4A4882790DD8110 /* [CP] Embed Pods Frameworks */,
+				51704448AEA8290EB987E64C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -479,9 +609,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87F002C61DC66D2700FCD81F /* Build configuration list for PBXNativeTarget "ATVPingPongGameUITests" */;
 			buildPhases = (
+				C6C6759963F1C5C0B6F78BDD /* [CP] Check Pods Manifest.lock */,
 				87F002B31DC66D2700FCD81F /* Sources */,
 				87F002B41DC66D2700FCD81F /* Frameworks */,
 				87F002B51DC66D2700FCD81F /* Resources */,
+				3688E3BB63CEDE43B6E32F39 /* [CP] Embed Pods Frameworks */,
+				D67382DB44F0639EB12C4724 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -608,7 +741,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DB8FBF1DC49665007DE6EE /* Main.storyboard in Resources */,
-				87DB8FB61DC49665007DE6EE /* GameScene.sks in Resources */,
+				87DB8FB61DC49665007DE6EE /* iOS_GameScene.sks in Resources */,
 				87DB8FC11DC49665007DE6EE /* Assets.xcassets in Resources */,
 				87DB8FC41DC49665007DE6EE /* LaunchScreen.storyboard in Resources */,
 				87DB8FB81DC49665007DE6EE /* Actions.sks in Resources */,
@@ -657,6 +790,354 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0086942B3F2C3B177C6DBFB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPongGameUITests/Pods-PingPongGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11EE52CEFACADEEC2EBD23D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPongGame/Pods-PingPongGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1733198BD1587101FDDE1F37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		212ED5DF530592B0F2D17671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		274792C8E4A4882790DD8110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPingPongGameTests/Pods-ATVPingPongGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28DB9A61C0922342F0EDCDF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPongGameTests/Pods-PingPongGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3688E3BB63CEDE43B6E32F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPingPongGameUITests/Pods-ATVPingPongGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		426285EE6F620EE9F8FBA3B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44B3BEAE933B1B43337AC2A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		473D483C5FDE6E622D345288 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPongGame/Pods-PingPongGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9C5009362A7DEB96EDC906 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPongGameUITests/Pods-PingPongGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51704448AEA8290EB987E64C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPingPongGameTests/Pods-ATVPingPongGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5384EF1FF43DCF3641724214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPongGameTests/Pods-PingPongGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		663B52855A30DC3A2BC35A77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPingPongGame/Pods-ATVPingPongGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B0AB9FAB094665D321F9D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPingPongGame/Pods-ATVPingPongGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D86D7E5DF608B90F5D21A1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWPingPongGame/Pods-AWPingPongGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B67EC4EAE9C0D5A1727F79D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWPingPongGame Extension/Pods-AWPingPongGame Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E9E47A145DBD1306189121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C6759963F1C5C0B6F78BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C82229AA3343FB0F011192A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWPingPongGame Extension/Pods-AWPingPongGame Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67382DB44F0639EB12C4724 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPingPongGameUITests/Pods-ATVPingPongGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F304384F5B17DE30F6C461FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F614E9AF5C697DE45471AD61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		870EAE2F1DC4E8CA00E6E773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -674,9 +1155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87DB8FBA1DC49665007DE6EE /* GameScene.swift in Sources */,
-				87DB8FBC1DC49665007DE6EE /* GameViewController.swift in Sources */,
+				87DB8FBA1DC49665007DE6EE /* iOS_GameScene.swift in Sources */,
+				87DB8FBC1DC49665007DE6EE /* iOS_VC_GameViewController.swift in Sources */,
 				87DB8FB41DC49665007DE6EE /* AppDelegate.swift in Sources */,
+				871B86BC1DF0844B0029C64E /* iOS_VC_TestMenuWithNavBar.swift in Sources */,
+				87E914EE1DF04F5900B14352 /* VC_GameMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,7 +1184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F0029F1DC66D2700FCD81F /* GameScene.swift in Sources */,
-				87F002A11DC66D2700FCD81F /* GameViewController.swift in Sources */,
+				87F002A11DC66D2700FCD81F /* TV_VC_GameViewController.swift in Sources */,
 				87F002971DC66D2700FCD81F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -795,6 +1278,7 @@
 /* Begin XCBuildConfiguration section */
 		870EAE4D1DC4E8CA00E6E773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360A8570AEDA0136CDA3B7BB /* Pods-AWPingPongGame Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = XR44564ZNH;
@@ -812,6 +1296,7 @@
 		};
 		870EAE4E1DC4E8CA00E6E773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5C152E5F80838B2DDE8D97 /* Pods-AWPingPongGame Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = XR44564ZNH;
@@ -829,6 +1314,7 @@
 		};
 		870EAE511DC4E8CA00E6E773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29BB50814610A1D33A72C28 /* Pods-AWPingPongGame.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -848,6 +1334,7 @@
 		};
 		870EAE521DC4E8CA00E6E773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E4065835B6151983089D98 /* Pods-AWPingPongGame.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -960,12 +1447,13 @@
 		};
 		87DB8FDF1DC49665007DE6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C3F8A843FC8878D1259AB9 /* Pods-PingPongGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PingPongGame/PingPongGame.entitlements;
 				DEVELOPMENT_TEAM = XR44564ZNH;
 				INFOPLIST_FILE = PingPongGame/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LJPDB.PingPongGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -976,12 +1464,13 @@
 		};
 		87DB8FE01DC49665007DE6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75832A4CBC996873D751CC9D /* Pods-PingPongGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PingPongGame/PingPongGame.entitlements;
 				DEVELOPMENT_TEAM = XR44564ZNH;
 				INFOPLIST_FILE = PingPongGame/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LJPDB.PingPongGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -992,6 +1481,7 @@
 		};
 		87DB8FE21DC49665007DE6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C72597DF63A363A453F6397 /* Pods-PingPongGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1007,6 +1497,7 @@
 		};
 		87DB8FE31DC49665007DE6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1B7C0E3FB92ED2E90B9359 /* Pods-PingPongGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1022,6 +1513,7 @@
 		};
 		87DB8FE51DC49665007DE6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8373FACB17A0F63A46994E /* Pods-PingPongGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XR44564ZNH;
@@ -1036,6 +1528,7 @@
 		};
 		87DB8FE61DC49665007DE6EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA31CB85C1E96273179B549 /* Pods-PingPongGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XR44564ZNH;
@@ -1050,6 +1543,7 @@
 		};
 		87F002BE1DC66D2700FCD81F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1661E9E43198AD064635DAC1 /* Pods-ATVPingPongGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1067,6 +1561,7 @@
 		};
 		87F002BF1DC66D2700FCD81F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6568645A91E424C85AD9ABF1 /* Pods-ATVPingPongGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1084,6 +1579,7 @@
 		};
 		87F002C01DC66D2700FCD81F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF3273D8ECE311826FBB35F /* Pods-ATVPingPongGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1101,6 +1597,7 @@
 		};
 		87F002C11DC66D2700FCD81F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281D6EF3F3DDCF476B2C2D1B /* Pods-ATVPingPongGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1118,6 +1615,7 @@
 		};
 		87F002C21DC66D2700FCD81F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6693A51E8768A9C48A0C615D /* Pods-ATVPingPongGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XR44564ZNH;
@@ -1134,6 +1632,7 @@
 		};
 		87F002C31DC66D2700FCD81F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B789551C99A00C2F84EDE1C /* Pods-ATVPingPongGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XR44564ZNH;
@@ -1212,6 +1711,7 @@
 				87F002BF1DC66D2700FCD81F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87F002C51DC66D2700FCD81F /* Build configuration list for PBXNativeTarget "ATVPingPongGameTests" */ = {
 			isa = XCConfigurationList;
@@ -1220,6 +1720,7 @@
 				87F002C11DC66D2700FCD81F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87F002C61DC66D2700FCD81F /* Build configuration list for PBXNativeTarget "ATVPingPongGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -1228,6 +1729,7 @@
 				87F002C31DC66D2700FCD81F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

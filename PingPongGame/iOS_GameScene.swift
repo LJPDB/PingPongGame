@@ -9,7 +9,7 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+class iOS_GameScene: SKScene {
     var ball = SKSpriteNode()
     var enemy = SKSpriteNode()
     var player = SKSpriteNode()
@@ -18,6 +18,8 @@ class GameScene: SKScene {
     var playerScoreValueLbl = SKLabelNode()
     
     var score = [Int]()
+    
+    weak var viewController: iOS_VC_GameViewController!
     
     override func didMove(to view: SKView) {
         startGame()
@@ -75,6 +77,18 @@ class GameScene: SKScene {
             addScore(playerWhoWon: enemy)
         }else if ball.position.y >= enemy.position.y + 30 {
             addScore(playerWhoWon: player)
+        }
+    }
+    
+    func pauseGame(){
+        if (self.scene!.view!.isPaused) {
+            self.scene?.view?.isPaused = false
+            viewController.otl_pauseBtn.setTitle("pause", for: UIControlState.normal)
+            viewController.navigationController?.setNavigationBarHidden(true, animated: true)
+        }else{
+            self.scene?.view?.isPaused = true
+            viewController.otl_pauseBtn.setTitle("play", for: UIControlState.normal)
+            viewController.navigationController?.setNavigationBarHidden(false, animated: true)
         }
     }
 }

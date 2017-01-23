@@ -35,7 +35,7 @@ class GameScene: SKScene {
        // playerScoreValueLbl = self.childNode(withName: "playerScoreValueLbl") as! SKLabelNode
        // enemyScoreValueLbl = self.childNode(withName: "enemyScoreValueLbl") as! SKLabelNode
         
-        ball.physicsBody?.applyImpulse(CGVector(dx:20, dy:20))
+        ball.physicsBody?.applyImpulse(CGVector(dx:10, dy:10))
         
         let border = SKPhysicsBody(edgeLoopFrom:self.frame)
         border.restitution = 1
@@ -52,10 +52,10 @@ class GameScene: SKScene {
         ball.physicsBody?.velocity = CGVector(dx: 0.0, dy: 0.0)
         if playerWhoWon == player{
             score[0] += 1
-            ball.physicsBody?.applyImpulse(CGVector(dx:20, dy:20))
+            ball.physicsBody?.applyImpulse(CGVector(dx:10, dy:10))
         }else{
             score[1] += 1
-            ball.physicsBody?.applyImpulse(CGVector(dx:-20, dy:-20))
+            ball.physicsBody?.applyImpulse(CGVector(dx:-10, dy:-10))
         }
         playerScoreValueLbl.text = String(score[0])
         enemyScoreValueLbl.text = String(score[1])
@@ -69,10 +69,10 @@ class GameScene: SKScene {
     
     
     override func update(_ currentTime: TimeInterval) {
-        enemy.run(SKAction.moveTo(x: ball.position.x, duration: 1.0))
-        if ball.position.y <= player.position.y - 30 {
+        enemy.run(SKAction.moveTo(x: ball.position.x, duration: 0.4))
+        if ball.position.y <= player.position.y - 5 {
             addScore(playerWhoWon: enemy)
-        }else if ball.position.y >= enemy.position.y + 30 {
+        }else if ball.position.y >= enemy.position.y + 5 {
             addScore(playerWhoWon: player)
         }
         if let accelerometerData = motionManager.accelerometerData {
